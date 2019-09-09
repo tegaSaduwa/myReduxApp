@@ -2,6 +2,7 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://tegaSaduwa.github.io/myReduxApp",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap": "^4.3.1",
@@ -13,9 +14,9 @@
     "react-scripts": "1.1.4",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "uuid": "^3.3.2",
-    "homepage" : "http://tegaSaduwa.github.io/myReduxApp"
+    "uuid": "^3.3.2"
   },
+
   "scripts": {
     "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
